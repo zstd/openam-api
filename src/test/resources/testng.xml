@@ -1,0 +1,14 @@
+<suite name="Suite1" >
+    <parameter name="openam-url" value="http://192.168.1.147:8080/openam11" />
+    <parameter name="openam-user" value="amadmin" />
+    <parameter name="openam-pass" value="wa123456" />
+    <test name="openam-integration-test">
+        <classes>
+
+            <class name="ru.git.security.impl.OpenAmHttpApiIT"/>
+
+
+        </classes>
+    </test>
+</suite>
+
